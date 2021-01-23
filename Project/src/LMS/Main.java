@@ -105,7 +105,7 @@ public class Main
             else
             {
                 double totalFine = lib.computeFine2((Borrower)person);
-                System.out.println("\nYour Total Fine is : Rs " + totalFine );                 
+                System.out.println("\n Your Total Fine is : Rs " + totalFine );                 
             }
         }
         
@@ -172,7 +172,7 @@ public class Main
                 bor.printBorrowedBooks();
                 ArrayList<Loan> loans = bor.getBorrowedBooks();
                 
-                if (!loans.isEmpty())
+                if (!loans.isEmpty()) // if there are no borrower
                 {
                     input = takeInput(-1,loans.size());
  
