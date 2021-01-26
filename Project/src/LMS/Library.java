@@ -123,7 +123,7 @@ public class Library {
             return true;
         }
         else
-            System.out.println("\nSorry, the library already has one librarian. New Librarian can't be created.");
+            System.out.println("\nSorry, the library already has one librarian. New Librarian cannot be created.");
         return false;
     }
     
@@ -168,7 +168,7 @@ public class Library {
                 return (Borrower)(persons.get(i));
         }
         
-        System.out.println("\nSorry this ID didn't match any Borrower's ID.");
+        System.out.println("\nSorry this ID did not match any Borrower's ID.");
         return null;
     }
     
